@@ -1,0 +1,39 @@
+我 O
+明 B-TIME
+天 I-TIME
+去 O
+北 B-LOC
+京 I-LOC
+
+小 B-PER
+明 I-PER
+在 O
+上 B-LOC
+海 I-LOC
+工 O
+作 O
+
+今 B-TIME
+天 I-TIME
+我 O
+见 O
+了 O
+小 B-PER
+红 I-PER
+
+苹 B-ORG
+果 I-ORG
+公 I-ORG
+司 I-ORG
+位 O
+于 O
+美 B-LOC
+国 I-LOC
+
+李 B-PER
+雷 I-PER
+明 B-TIME
+天 I-TIME
+去 O
+深 B-LOC
+圳 I-LOC
