@@ -1,24 +1,9 @@
-
-# Flexible Transformer Framework V4 Train and Test Demo
-
-这版加入了几组真实小数据和训练脚本。
-
-## 新增数据
-
-```text
-data/
-├── classification/sentiment.tsv
-├── ner/train.conll
-├── language_model/lm.txt
-├── dialogue/dialogue.tsv
-├── translation/zh_en.tsv
-└── summarization/summary.tsv
-```
+# Flexible Transformer Framework Train and Test Demo
 
 ## 快速训练全部任务
 
 ```bash
-python train_all_real_data_demos.py
+python train_all_demos.py
 ```
 
 这个入口默认每个任务只训练 3 个 epoch，用来快速验证数据流、forward 和 loss 是否能跑通。
@@ -83,7 +68,7 @@ python tasks/Encoder-Decoder_tasks/test_summarization.py --text "今天北京天
 统一测试入口：
 
 ```bash
-python test_all_real_data_demos.py
+python test_all_demos.py
 ```
 
 如果还没有训练，测试脚本会提示你先运行对应的 `train_xxx.py`。
