@@ -11,7 +11,7 @@
 
 ![Research](https://img.shields.io/badge/Focus-Theory%20%2B%20Experiment%20%2B%20Framework-orange)
 
-**Transformer 到底是如何从一堆矩阵运算，变成一个能理解、生成、翻译文本的模型的？—— Attention Is All You Need!!**
+**Transformer如何从一堆矩阵运算，变成一个能理解、生成、翻译文本的模型？—— Attention Is All You Need!!**
 
 </div>
 
