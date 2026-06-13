@@ -2,12 +2,16 @@
 ## 从理论拆解到翻译实验，再到灵活积木框架的研究札记
 
 <div align="center">
+    
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
+    
 ![PyTorch](https://img.shields.io/badge/PyTorch-Transformer-red)
+
 ![NLP](https://img.shields.io/badge/NLP-Translation%20%7C%20NER%20%7C%20LM%20%7C%20Dialogue%20%7C%20Summary-green)
+
 ![Research](https://img.shields.io/badge/Focus-Theory%20%2B%20Experiment%20%2B%20Framework-orange)
 
-**Transformer 到底是如何从一堆矩阵运算，变成一个能理解、生成、翻译文本的模型的？—— Attention Is All You Need!! **
+**Transformer 到底是如何从一堆矩阵运算，变成一个能理解、生成、翻译文本的模型的？—— Attention Is All You Need!!**
 
 </div>
 
@@ -115,24 +119,7 @@ Chinese:
 
 </div>
 
-一次翻译可以看成一条“信息接力链”：
-
-```mermaid
-flowchart LR
-    A["英文句子"] --> B["Token IDs"]
-    B --> C["Input Embedding"]
-    C --> D["Positional Encoding"]
-    D --> E["Encoder Self-Attention"]
-    E --> F["Add & Norm"]
-    F --> G["Feed Forward"]
-    G --> H["Encoder Memory"]
-    H --> I["Decoder"]
-    I --> J["Cross Attention"]
-    J --> K["Prediction Head"]
-    K --> L["中文译文"]
-```
-
-下面，把这条链路完整走一遍！Come on~
+一次翻译可以看成一条“信息接力链”。下面，我们来把这条链路完整走一遍！Come on~
 
 ---
 
@@ -895,7 +882,7 @@ Encoder-Decoder 适合条件生成。它先用 Encoder 理解输入，再用 Dec
 
 ---
 
-## 🎯 这部分体现了什么工作量？
+## 🎯 能力点&工作量
 
 | 能力点 | 具体体现 |
 |---|---|
@@ -936,7 +923,7 @@ flowchart TD
 ---
 
 # 🛠️ Part IV｜复现指南  
-## 前面讲研究过程，这里只讲如何运行
+## 前面讲研究过程，这里讲如何复现
 
 ---
 
@@ -1110,4 +1097,6 @@ tgt_tokenizer.json
 
 它记录的不只是模型能跑通，而是我如何一步步理解 Transformer -> 复现 Transformer -> 再重新组织 Transformer。
 
-欢迎与我共同学习~欢迎讨论指正~
+欢迎与我共同学习~
+
+欢迎讨论指正~
